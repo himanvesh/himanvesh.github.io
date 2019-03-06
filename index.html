@@ -1,70 +1,71 @@
 <!DOCTYPE html>
+
 <html><head>
 <title>Himanvesh</title>
 <link rel="stylesheet" href="css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
 <body>
 <!-- CONTAINER -->
 <div id="container">
 <!-- Navigation -->
-<div id="navigator-bar">
-<div id="bar">
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#contact">Contact</a></li>
-</ul>
+<div id="Navigation">
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#"><img id="image" src="image/himanvesh.jpg"></a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#education">Education</a>
+  <a href="#contact">Contact</a>
+<div id="footer1">
+<div id="foot_p1">
+<div id="foot_p11">
+<a href="www.instagram.com/touringhim"><img id="png" src="image/insta.jfif"></a></br> </br>
+<a href="www.twitter.com/himanvesh"><img id="png" src="image/twitter.png"></a></br></br>
+<a href="www.facebook.com/himanvesh"><img id="png" src="image/fb.png"></a></br> 
+</div> 
 </div>
 </div>
+</div>
+<span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+
 <a name="about"></a>
 <div id="banner">
 <img id="image1" src="image/himanvesh.jpg">
 <h1 id="heman">Himanvesh M</h1>
 <h4><i>Intern @ Cognizant</i></h4>
 <p> Hey There! I am Himanvesh, what's so good about me that you here. Since you are here anywhere let me tell you about myself.</p>
+
 <div id="skills">
 <h2>Skills</h2>
 <div id="skill_p">
-Video Editing <br>Photography<br>Graphic Desgning<br>Web Desgning<br>C++, C<br>SQL<br>Athlete<br>7 languages<br>Java Script
+Video Editing <br>Photography<br>Graphic Desgning<br>HTML, CSS<br>Java Script<br>7 Communication languages<br>C++, C, OOPS<br>SQL,Basic PL/SQL
 </div>
 </div>
 <div id="education"><a name="education"></a>
+
 <h2>Education</h2>
 <div id="edu_p">
-
-<h5><i>2013</i><h5>
+<i>2013</i>
 <h3>Chettinad Vidyashram</h3>
 <h4>10th Grade</h4>
 <h3>CGPA: 7.2 </h3>
 
-<h5><i>2015</i><h5>
+<i>2015</i>
 <h3>Chettinad Vidyashram</h3>
 <h4>12th Grade</h4>
 <h3>Percentage: 84% </h3>
 
-<h5><i>2019</i><h5>
+<i>2019</i>
 <h3>Vellore Institue of Technology</h3>
 <h4>B.Tech mechanical</h4>
 <h3>CGPA: 7.82 </h3>
 </div>
 </div>
-<div class="slider-holder">
-        <span id="slider-image-1"></span>
-        <span id="slider-image-2"></span>
-        <span id="slider-image-3"></span>
-        <div class="image-holder">
-            <img src="image/img1.jpg" class="slider-image" />
-            <img src="image/img2.jpg" class="slider-image" />
-            <img src="image/img3.jpg" class="slider-image" />
-        </div>
-        <div class="button-holder">
-            <a href="#slider-image-1" class="slider-change"></a>
-            <a href="#slider-image-2" class="slider-change"></a>
-            <a href="#slider-image-3" class="slider-change"></a>
-        </div>
-</div>
+
 <div id="contact"><a name="contact"></a>
 <h2>Contact Me:</h2>
 <div id="contact_p">
@@ -74,16 +75,18 @@ Video Editing <br>Photography<br>Graphic Desgning<br>Web Desgning<br>C++, C<br>S
 </div>
 </div>
 </div>
-<!-- FOOTER -->
-<div id="footer">
-<div id="foot_p">
-<div id="foot_p1">
-<a href="www.instagram.com/touringhim"><img id="png" src="image/insta.jfif" width="32px" height="32px"></a></br> </br>
-<a href="www.twitter.com/himanvesh"><img id="png" src="image/twitter.png" width="32px" height="32px"></a></br></br>
-<a href="www.facebook.com/himanvesh"><img id="png" src="image/fb.png" width="32px" height="32px"></a></br> 
-</div> 
 </div>
-</div>
-</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
 </body>
 </html>
+
