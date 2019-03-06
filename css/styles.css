@@ -16,10 +16,17 @@ body{
 }
 
 #Navigation{
-  background:#ccc;
-  align:left;
+  background:#61892f;
   position: fixed;
   width: 38px;
+  color: #222629;
+  padding-left: 5px;
+}
+
+#Navigation p{
+  font-size: 11px;
+  color: #818181;
+  float:left;
 }
 
 .sidenav {
@@ -62,13 +69,12 @@ body{
 }
 
 #container{
-	margin: 0;
-	background: #FFA500;	
+	margin: 0;	
 }
 
 #banner{
 	text-align: center;
-	background:#ccc;
+	background: #6B6E70;
 	clear:both;
 	padding-top: 20px;
 	height: auto;
@@ -92,12 +98,13 @@ body{
 }
 
 #skills{
-	background:#fff;
+	background:#474B4f;
+	color: #6B6E70;
 	height: 160px;
 	width:100%;
 	padding-top: 5px;
 	font-stretch: 2px;
-
+	opacity: 80%;
 }
 
 #skill_p{
@@ -113,7 +120,8 @@ body{
 }
 
 #education{
-	background:#FFA500;
+	background: #222629;
+	color: #6B6E70;
 	height: 260px;
 	width: 100%;
 	padding-top: 5px;
@@ -132,11 +140,22 @@ body{
   column-rule-style: solid;
 }
 
+#experience{
+	background:#86c232;
+	height: 400px;
+	width: 100%;
+	color: #818181;
+	padding-top: 5px;
+	font-stretch: 2px;
+}
+
+
 
 #contact{
-	background:#fff;
+	background:#222629;
 	height: 160px;
 	width: 100%;
+	color:#fff;
 	padding-top: 5px;
 	font-stretch: 2px;
 }
@@ -150,12 +169,11 @@ body{
 
 #footer1{
 	text-align: center;
-	color: #fff;
 	display: block;
 	height: 32px;
 	width: 100%;
 	right:0;
-	bottom: 100px;
+	bottom: 130px;
 	left: 10px;
 	position: absolute;
 	
@@ -177,5 +195,9 @@ body{
 	float: center;
 	border-radius: 20%;
 	border: 1px solid #ddd;	
+}
+
+#gif{
+	border-radius: 20%;
 }
 
